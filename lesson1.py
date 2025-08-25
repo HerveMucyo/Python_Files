@@ -8,6 +8,7 @@ import os
 import time
 import re
 from datetime import datetime
+from sklearn.feature_extraction.text import TfidfVectorizer
 import plotly.express as px
 import plotly.graph_objects as go
 
